@@ -13,6 +13,11 @@ dependencies:
   http: ^0.13.6
   web_socket_channel: ^2.4.0
   flutter_appauth: ^6.0.1
+  chessground: ^7.1.3          # Lichess UI board :contentReference[oaicite:2]{index=2}
+  chess: ^0.8.1          # Chess logic (moves, legality, FEN) :contentReference[oaicite:3]{index=3}
+  lichess_client_dio: 0.0.9
+  dartchess: ^0.11.1
+  fast_immutable_collections: ^11.0.4
 
 dev_dependencies:
   flutter_test:
